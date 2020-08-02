@@ -42,34 +42,13 @@
 }
 
 
-.main-title{
-  margin-bottom: 15px;
-  text-align: center;
-  color: blue;
-  font-size: 50px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-weight: bold;
-}
+
 
 li{
 	box-sizing: border-box;
 	width: 100%;
 }
 
-.menu-item{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	background-color: white;
-	border-bottom: 1px solid black;
-	color: black;
-	display: block;
-}
-
-.menu-item:hover{
-	background-color: rgba(0,0,0,0.9);
-	color:green;
-}
 
 
 
