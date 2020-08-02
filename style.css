@@ -42,6 +42,20 @@ li{
 	box-sizing: border-box;
 	width: 100%;
 }
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: red;
+}
 
 
 
