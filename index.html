@@ -9,16 +9,10 @@ meta charset="utf-8">
   <title> bootstrap starter page</title>
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
- 
-
-</head>
-
-
-<body>
-  <nav class="navbar" id="top">
-<div class="container-fluid">
+   <nav id="header-nav" class="navbar navbar-default">
+    <div class="container-fluid">
     <div class="navbar-brand">
-   
+   <strong>
     <a class="navbar-brand" href="#">Food,LLC</a></div>
     <button type="button" class ="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 
@@ -29,15 +23,28 @@ meta charset="utf-8">
   </button>
   </div></br>
   <div id ="collapsable-nav" class="collapse navbar-collapse">
-   <ul id ="nav-list" class="nav navbar-nav navbar-right" visible-xs">
-        <li><a class="menu-item" href="#">Chicken</a></li>
-        <li><a class="menu-item" href="#">Beef</a></li> 
-        <li><a class="menu-item" href="#">Sushi</a></li> 
+   <ul id ="nav-list" class="nav navbar-nav navbar-right">
+   <li class="text-center">
+      <a href="#" class="hidden-lg hidden-sm hidden-md">
+        Chicken</a>
+        <hr class="new1">
+      </li>
+      <li class=" text-center">
+      <a href="#" class="hidden-sm hidden-lg hidden-md">
+      beef</a>
+      <hr class="new1">
+      </li>
+      <li class="text-center">
+        <a href="#" class="hidden-sm hidden-lg hidden-md">
+        sushi</a>
+      </li>
       </ul>
     </div>
+          </nav></header>
 
-  </div>
-</nav>
+
+
+
 
 <h1 class="main-title">Our Menu</h1>
 
